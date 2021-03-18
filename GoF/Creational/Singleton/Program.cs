@@ -37,7 +37,10 @@ namespace Singleton
 			Console.ReadKey();
 
 			Console.WriteLine( "----------------------------------" );
-			Console.WriteLine( "Observe que os dados da classe singletonClass1 e singletonClass2, são iguais! Pois, mesmo pertencendo a objetos diferentes, os dois pertencem a mesma intância!" );
+			Console.WriteLine( "Observe que, ao modificar os dados das propriedades do objeto singletonClass2, os dados das propriedades do objeto singletonClass1, tambem se modificam! Pois, mesmo pertencendo a objetos diferentes, os dois pertencem a mesma intancia!" );
+			Console.WriteLine( "" );
+			Console.WriteLine( "" );
+			Console.WriteLine( "" );
 		}
 	}
 }
