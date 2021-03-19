@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GoF/1.0.0": {
+        "dependencies": {
+          "Mediator": "1.0.0"
+        },
+        "runtime": {
+          "GoF.dll": {}
+        }
+      },
+      "Mediator/1.0.0": {
+        "runtime": {
+          "Mediator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mediator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
