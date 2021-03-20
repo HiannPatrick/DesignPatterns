@@ -5,8 +5,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Behavioral\Mediator\Mediator.csproj" />
-  </ItemGroup>
-
 </Project>

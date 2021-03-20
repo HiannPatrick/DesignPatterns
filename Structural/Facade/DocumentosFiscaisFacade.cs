@@ -10,12 +10,8 @@ namespace Facade
 {
 	public class DocumentosFiscaisFacade
 	{
-		private IDocumentosFiscais _NotasFiscais;
-		private IDocumentosFiscais _NotasFiscaisConsumidor;
 		public DocumentosFiscaisFacade()
 		{
-			_NotasFiscais = new NotasFiscais();
-			_NotasFiscaisConsumidor = new NotasFiscaisConsumidor();
 		}
 
 		/// <summary>
@@ -26,79 +22,33 @@ namespace Facade
 		/// <param name="comando"></param>
 		public void ExecutarFuncao( string numeroDocumentoFiscal, DocumentosFiscaisTipos tipo, DocumentosFiscaisComandos comando )
 		{
+			IDocumentosFiscais documentoFiscal = null;
+
+			switch ( tipo )
+			{
+				case DocumentosFiscaisTipos.NotaFiscal:
+					documentoFiscal = new NotasFiscais();
+					break;
+				case DocumentosFiscaisTipos.NotaFiscalConsumidor:
+					documentoFiscal = new NotasFiscaisConsumidor();
+					break;
+				default:
+					return;
+			}
+
 			switch ( comando )
 			{
 				case DocumentosFiscaisComandos.Autorizar:
-					this.Autorizar( numeroDocumentoFiscal, tipo );
+					documentoFiscal.Autorizar( numeroDocumentoFiscal );
 					break;
 				case DocumentosFiscaisComandos.Cancelar:
-					this.Cancelar( numeroDocumentoFiscal, tipo );
+					documentoFiscal.Cancelar( numeroDocumentoFiscal );
 					break;
 				case DocumentosFiscaisComandos.Inutilizar:
-					this.Inutilizar( numeroDocumentoFiscal, tipo );
+					documentoFiscal.Inutilizar( numeroDocumentoFiscal );
 					break;
 				case DocumentosFiscaisComandos.Atualizar:
-					this.Atualizar( numeroDocumentoFiscal, tipo );
-					break;
-				default:
-					break;
-			}
-		}
-
-		private void Autorizar( string nroDocumentoFiscal, DocumentosFiscaisTipos tipos )
-		{
-			switch ( tipos )
-			{
-				case DocumentosFiscaisTipos.NotaFiscal:
-					_NotasFiscais.Autorizar( nroDocumentoFiscal );
-					break;
-				case DocumentosFiscaisTipos.NotaFiscalConsumidor:
-					_NotasFiscaisConsumidor.Autorizar( nroDocumentoFiscal );
-					break;
-				default:
-					break;
-			}
-		}
-
-		private void Cancelar( string nroDocumentoFiscal, DocumentosFiscaisTipos tipos )
-		{
-			switch ( tipos )
-			{
-				case DocumentosFiscaisTipos.NotaFiscal:
-					_NotasFiscais.Cancelar( nroDocumentoFiscal );
-					break;
-				case DocumentosFiscaisTipos.NotaFiscalConsumidor:
-					_NotasFiscaisConsumidor.Cancelar( nroDocumentoFiscal );
-					break;
-				default:
-					break;
-			}
-		}
-
-		private void Inutilizar( string nroDocumentoFiscal, DocumentosFiscaisTipos tipos )
-		{
-			switch ( tipos )
-			{
-				case DocumentosFiscaisTipos.NotaFiscal:
-					_NotasFiscais.Inutilizar( nroDocumentoFiscal );
-					break;
-				case DocumentosFiscaisTipos.NotaFiscalConsumidor:
-					_NotasFiscaisConsumidor.Inutilizar( nroDocumentoFiscal );
-					break;
-				default:
-					break;
-			}
-		}
-
-		private void Atualizar( string nroDocumentoFiscal, DocumentosFiscaisTipos tipos )
-		{
-			switch ( tipos )
-			{
-				case DocumentosFiscaisTipos.NotaFiscal:
-					_NotasFiscais.Atualizar( nroDocumentoFiscal );
-					break;
-				case DocumentosFiscaisTipos.NotaFiscalConsumidor:
-					_NotasFiscaisConsumidor.Atualizar( nroDocumentoFiscal );
+					documentoFiscal.Atualizar( numeroDocumentoFiscal );
 					break;
 				default:
 					break;

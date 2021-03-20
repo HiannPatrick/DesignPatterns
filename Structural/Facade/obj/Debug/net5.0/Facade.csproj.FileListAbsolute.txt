@@ -29,3 +29,4 @@ C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Facade\obj\De
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Facade\obj\Debug\net5.0\ref\Facade.dll
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Facade\obj\Debug\net5.0\Facade.pdb
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Facade\obj\Debug\net5.0\Facade.genruntimeconfig.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Facade\obj\Debug\net5.0\Facade.csprojAssemblyReference.cache

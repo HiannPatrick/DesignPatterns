@@ -8,7 +8,6 @@ namespace Facade.Enum
 {
 	public enum DocumentosFiscaisTipos
 	{
-		Empty,
 		NotaFiscal,
 		NotaFiscalConsumidor
 	}

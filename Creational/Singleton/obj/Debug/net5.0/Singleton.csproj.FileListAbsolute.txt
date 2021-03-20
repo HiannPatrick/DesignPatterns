@@ -29,3 +29,4 @@ C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\obj
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\obj\Debug\net5.0\ref\Singleton.dll
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\obj\Debug\net5.0\Singleton.pdb
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\obj\Debug\net5.0\Singleton.genruntimeconfig.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\obj\Debug\net5.0\Singleton.csprojAssemblyReference.cache

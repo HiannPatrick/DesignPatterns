@@ -1,2 +1,0 @@
-﻿#Mediator
-Em desenvolvimento
