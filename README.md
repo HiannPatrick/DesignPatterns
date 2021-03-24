@@ -21,3 +21,5 @@ Os Design Patterns possuem as seguintes propriedades:
 - Possuem a solução para esse problema;
 - Possuem as consequencias de seu uso.
 
+
+
