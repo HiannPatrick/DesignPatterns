@@ -1,5 +1,7 @@
 ﻿# FACTORYMETHOD
+
 # Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
+# Fonte: https://www.youtube.com/watch?v=uO3xScrljiA
 
 # Definição
 
@@ -85,3 +87,4 @@ Por exemplo, imagine que você tenha a seguinte hierarquia de classes: a classe 
 - O código pode se tornar mais complicado, pois você precisa introduzir muitas subclasses novas para implementar o padrão. O melhor cenário é quando você está introduzindo o padrão em uma hierarquia existente de classes criadoras.
 
 # Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
+# Fonte: https://www.youtube.com/watch?v=uO3xScrljiA
