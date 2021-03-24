@@ -1,0 +1,16 @@
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.AssemblyInfoInputs.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.AssemblyInfo.cs
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.csproj.CoreCompileInputs.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\bin\Debug\net5.0\FactoryMethod_Exemplo2.exe
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\bin\Debug\net5.0\FactoryMethod_Exemplo2.deps.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\bin\Debug\net5.0\FactoryMethod_Exemplo2.runtimeconfig.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\bin\Debug\net5.0\FactoryMethod_Exemplo2.runtimeconfig.dev.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\bin\Debug\net5.0\FactoryMethod_Exemplo2.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\bin\Debug\net5.0\ref\FactoryMethod_Exemplo2.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\bin\Debug\net5.0\FactoryMethod_Exemplo2.pdb
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\ref\FactoryMethod_Exemplo2.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.pdb
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.genruntimeconfig.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\FactoryMethod\FactoryMethod_Exemplo2\obj\Debug\net5.0\FactoryMethod_Exemplo2.csprojAssemblyReference.cache

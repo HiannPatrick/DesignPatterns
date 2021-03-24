@@ -1,10 +1,10 @@
-﻿# GoF
-Design Pattern Gangs of Four
+﻿#GoF
+#Design Pattern Gangs of Four
 
 Gangs of Four Design Pattern, é uma coleção de 23 Design Patterns do livro "Design Patterns: Elements of Reusable Object Oriented Software" ("Padrões de Projeto: Elementos de softwares orientado a objetos reutilizáveis", em tradução livre).
 Este livro foi publicado em 1994 e é um dos mais populares para se aprender padrões de projeto. O livro foi escrito por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides. O nome Gang of Four, se dá por causa dos seus quatro autores. Alem do mais, pode ser chamado de GoF.
 
-O GoF é dividido em três categorias:
+#O GoF é dividido em três categorias:
 
 	- Criacionais (Creational): Os padrões de projeto que lidam com a criação de um objeto;
 
@@ -12,7 +12,7 @@ O GoF é dividido em três categorias:
 
 	- Comportamentais (Behavioral): Este tipos de padrões de projeto, fornecem soluções para a melhor interação entre objetos, como fornecer perda de acoplamento e flexibilidade para estender facilmente no futuro;
 
-5 Padrões Criacionais (Creational Desing Patterns)
+#5 Padrões Criacionais (Creational Desing Patterns)
 	
 	- Abstract Factory: Nos permite criar um fábrica de criação de classes;
 	
@@ -24,7 +24,7 @@ O GoF é dividido em três categorias:
 
 	- Singleton: Restringe a inicialização de uma classe para garantir que apenas uma instância da classe possa ser criada;
 
-7 Padrões Estruturais (Structural Design Patterns)
+#7 Padrões Estruturais (Structural Design Patterns)
 
 	- Adapter: Fornece uma interface entre duas entidades não relacionadas, para que possam trabalhar juntas.
 
@@ -41,7 +41,7 @@ O GoF é dividido em três categorias:
 
 	- Proxy: Fornece um substituto ou espaço reservado para outro objeto para controlar o acesso a ele;
 
-11 Padrões Comportamentais ( Behavioral Design Patterns)
+#11 Padrões Comportamentais ( Behavioral Design Patterns)
 
 	- Chain of Responsability: usado para obter acoplamento fraco no design do software, onde uma solicitação do cliente é passada para uma cadeia de objetos para processá-los.
 
@@ -65,5 +65,4 @@ O GoF é dividido em três categorias:
 
 	- Visitor: usado quando temos que realizar uma operação em um grupo de tipos semelhantes de objetos.
 
-
-Fonte:https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns
+#Fonte:https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns
