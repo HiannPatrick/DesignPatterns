@@ -53,6 +53,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory_Exemplo1", "..\Creational\AbstractFactory\AbstractFactory_Exemplo1\AbstractFactory_Exemplo1.csproj", "{973B9E66-A32D-4096-B32A-53BA2FD6199F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{6F1649AC-7304-4040-BD93-12E1D4CC1991}"
+	ProjectSection(SolutionItems) = preProject
+		..\Creational\Builder\README.md = ..\Creational\Builder\README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_Exemplo1", "..\Creational\Builder\Builder_Exemplo1\Builder_Exemplo1.csproj", "{ECD213D5-E6EF-4B2E-98D7-C7861A143B40}"
 EndProject

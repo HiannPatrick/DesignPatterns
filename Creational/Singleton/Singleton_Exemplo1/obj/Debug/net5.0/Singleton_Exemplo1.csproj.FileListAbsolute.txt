@@ -13,4 +13,3 @@ C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\Sin
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\Singleton_Exemplo1\obj\Debug\net5.0\ref\Singleton_Exemplo1.dll
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\Singleton_Exemplo1\obj\Debug\net5.0\Singleton_Exemplo1.pdb
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\Singleton_Exemplo1\obj\Debug\net5.0\Singleton_Exemplo1.genruntimeconfig.cache
-C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Creational\Singleton\Singleton_Exemplo1\obj\Debug\net5.0\Singleton_Exemplo1.csprojAssemblyReference.cache
