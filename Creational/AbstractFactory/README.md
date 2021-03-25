@@ -1,13 +1,13 @@
 ﻿# AbstractFactory
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/abstract-factory
-# Fonte: https://www.youtube.com/watch?v=5qowLOsyz3A
+## Fonte: https://refactoring.guru/pt-br/design-patterns/abstract-factory
+## Fonte: https://www.youtube.com/watch?v=5qowLOsyz3A
 
-# Definição
+## Definição
 
 O Abstract Factory é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.
 
-# Problema
+## Problema
 
 Imagine que você está criando um simulador de loja de mobílias. Seu código consiste de classes que representam:
 
@@ -18,7 +18,7 @@ Você precisa de um jeito de criar objetos de mobília individuais para que eles
 
 E ainda, você não quer mudar o código existente quando adiciona novos produtos ou famílias de produtos ao programa. Os vendedores de mobílias atualizam seus catálogos com frequência e você não vai querer mudar o código base cada vez que isso acontece.
 
-# Solução
+## Solução
 	
 A primeira coisa que o padrão Abstract Factory sugere é declarar explicitamente interfaces para cada produto distinto da família de produtos (ex: cadeira, sofá ou mesa de centro). Então você pode fazer todas as variantes dos produtos seguirem essas interfaces. Por exemplo, todas as variantes de cadeira podem implementar a interface Cadeira; todas as variantes de mesa de centro podem implementar a interface MesaDeCentro, e assim por diante.
 
@@ -32,9 +32,7 @@ Digamos que o cliente quer que uma fábrica produza uma cadeira. O cliente não 
 
 Há mais uma coisa a se clarificar: se o cliente está exposto apenas às interfaces abstratas, o que realmente cria os objetos fábrica então? Geralmente, o programa cria um objeto fábrica concreto no estágio de inicialização. Antes disso, o programa deve selecionar o tipo de fábrica dependendo da configuração ou definições de ambiente.
 
-# Bônus
-
-# Aplicabilidade
+## Aplicabilidade
 	
  Use o Abstract Factory quando seu código precisa trabalhar com diversas famílias de produtos relacionados, mas que você não quer depender de classes concretas daqueles produtos-eles podem ser desconhecidos de antemão ou você simplesmente quer permitir uma futura escalabilidade.
 
@@ -44,7 +42,7 @@ Considere implementar o Abstract Factory quando você tem uma classe com um conj
 
 Em um programa bem desenvolvido cada classe é responsável por apenas uma coisa. Quando uma classe lida com múltiplos tipos de produto, pode valer a pena extrair seus métodos fábrica em uma classe fábrica solitária ou uma implementação plena do Abstract Factory.
 
-# Como implementar
+## Como implementar
 	
 1. Mapeie uma matriz de tipos de produtos distintos versus as variantes desses produtos.
 2. Declare interfaces de produto abstratas para todos os tipos de produto. Então, faça todas as classes concretas de produtos implementar essas interfaces.
@@ -53,16 +51,25 @@ Em um programa bem desenvolvido cada classe é responsável por apenas uma coisa
 5. Crie um código de inicialização da fábrica em algum lugar da aplicação. Ele deve instanciar uma das classes fábrica concretas, dependendo da configuração da aplicação ou do ambiente atual. Passe esse objeto fábrica para todas as classes que constroem produtos.
 6. Escaneie o código e encontre todas as chamadas diretas para construtores de produtos. Substitua-as por chamadas para o método de criação apropriado no objeto fábrica.
 
-# Prós
+## Prós
 
  - Você pode ter certeza que os produtos que você obtém de uma fábrica são compatíveis entre si.
  - Você evita um vínculo forte entre produtos concretos e o código cliente.
  - Princípio de responsabilidade única. Você pode extrair o código de criação do produto para um lugar, fazendo o código ser de fácil manutenção.
  - Princípio aberto/fechado. Você pode introduzir novas variantes de produtos sem quebrar o código cliente existente.
 	
-# Contras
+## Contras
 
 - O código pode tornar-se mais complicado do que deveria ser, uma vez que muitas novas interfaces e classes são introduzidas junto com o padrão.
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/abstract-factory
-# Fonte: https://www.youtube.com/watch?v=5qowLOsyz3A
+##  Relações com outros padrões
+
+- Muitos projetos começam usando o Factory Method (menos complicado e mais customizável através de subclasses) e evoluem para o Abstract Factory, Prototype, ou Builder (mais flexíveis, mas mais complicados).
+- O Builder foca em construir objetos complexos passo a passo. O Abstract Factory se especializa em criar famílias de objetos relacionados. O Abstract Factory retorna o produto imediatamente, enquanto que o Builder permite que você execute algumas etapas de construção antes de buscar o produto.
+- Classes Abstract Factory são quase sempre baseadas em um conjunto de métodos fábrica, mas você também pode usar o Prototype para compor métodos dessas classes.
+- O Abstract Factory pode servir como uma alternativa para o Facade quando você precisa apenas esconder do código cliente a forma com que são criados os objetos do subsistema.
+- Você pode usar o Abstract Factory junto com o Bridge. Esse pareamento é útil quando algumas abstrações definidas pelo Bridge só podem trabalhar com implementações específicas. Neste caso, o Abstract Factory pode encapsular essas relações e esconder a complexidade do código cliente.
+- As AbstractFactory, Builders, e Prototype podem todos ser implementados como Singletons.
+
+## Fonte: https://refactoring.guru/pt-br/design-patterns/abstract-factory
+## Fonte: https://www.youtube.com/watch?v=5qowLOsyz3A

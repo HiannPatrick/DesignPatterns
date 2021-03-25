@@ -1,4 +1,4 @@
-﻿# BUILDER
+﻿# Builder
 
 ## Fonte: https://refactoring.guru/pt-br/design-patterns/builder
 ## Fonte: https://www.youtube.com/watch?v=eeMk6__g_nE
@@ -35,7 +35,6 @@ Por exemplo, imagine um builder que constrói tudo de madeira e vidro, um segund
 
 Você pode ir além e extrair uma série de chamadas para as etapas do builder que você usa para construir um produto em uma classe separada chamada diretor. A classe diretor define a ordem na qual executar as etapas de construção, enquanto que o builder provê a implementação dessas etapas.
 
-# Bônus
 ## Aplicabilidade
 Ter uma classe diretor em seu programa não é estritamente necessário. Você sempre pode chamar as etapas de construção em uma ordem específica diretamente do código cliente. Contudo, a classe diretor pode ser um bom lugar para colocar várias rotinas de construção para que você possa reutilizá-las em qualquer lugar do seu programa.
 
@@ -81,5 +80,13 @@ Não se esqueça de implementar um método para recuperar os resultados da const
 
 - A complexidade geral do código aumenta uma vez que o padrão exige criar múltiplas classes novas.
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/builder
-# Fonte: https://www.youtube.com/watch?v=eeMk6__g_nE
+## Relações com outros padrões
+
+- Muitos projetos começam usando o Factory Method (menos complicado e mais customizável através de subclasses) e evoluem para o Abstract Factory, Prototype, ou Builder (mais flexíveis, mas mais complicados).
+- O Builder foca em construir objetos complexos passo a passo. O Abstract Factory se especializa em criar famílias de objetos relacionados. O Abstract Factory retorna o produto imediatamente, enquanto que o Builder permite que você execute algumas etapas de construção antes de buscar o produto.
+- Você pode usar o Builder quando criar árvores Composite complexas porque você pode programar suas etapas de construção para trabalhar recursivamente.
+- Você pode combinar o Builder com o Bridge: a classe diretor tem um papel de abstração, enquanto que diferentes construtores agem como implementações.
+- As AbstractFactory, Builders, e Prototype podem todos ser implementados como Singletons.
+
+## Fonte: https://refactoring.guru/pt-br/design-patterns/builder
+## Fonte: https://www.youtube.com/watch?v=eeMk6__g_nE

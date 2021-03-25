@@ -1,12 +1,12 @@
 ﻿# GoF
 
-# Design Pattern Gangs of Four
+## Design Pattern Gangs of Four
 
 Gangs of Four Design Pattern, é uma coleção de 23 Design Patterns do livro "Design Patterns: Elements of Reusable Object Oriented Software" ("Padrões de Projeto: Elementos de softwares orientado a objetos reutilizáveis", em tradução livre).
 
 Este livro foi publicado em 1994 e é um dos mais populares para se aprender padrões de projeto. O livro foi escrito por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides. O nome Gang of Four, se dá por causa dos seus quatro autores. Alem do mais, pode ser chamado de GoF.
 
-# O GoF é dividido em três categorias:
+## O GoF é dividido em três categorias:
 
 - Criacionais (Creational): Os padrões de projeto que lidam com a criação de um objeto;
 
@@ -14,7 +14,7 @@ Este livro foi publicado em 1994 e é um dos mais populares para se aprender pad
 
 - Comportamentais (Behavioral): Este tipos de padrões de projeto, fornecem soluções para a melhor interação entre objetos, como fornecer perda de acoplamento e flexibilidade para estender facilmente no futuro;
 
-# 5 Padrões Criacionais (Creational Desing Patterns)
+## 5 Padrões Criacionais (Creational Desing Patterns)
 	
 - Abstract Factory: Nos permite criar um fábrica de criação de classes;
 - Builder: Criando um objeto passo a passo e um método para finalmente obter a instância do objeto;
@@ -22,7 +22,7 @@ Este livro foi publicado em 1994 e é um dos mais populares para se aprender pad
 - Prototype: Criar uma nova instância de objeto a partir de outra instância semelhante e, em seguida, modificar de acordo com nossos requisitos;
 - Singleton: Restringe a inicialização de uma classe para garantir que apenas uma instância da classe possa ser criada;
 
-# 7 Padrões Estruturais (Structural Design Patterns)
+## 7 Padrões Estruturais (Structural Design Patterns)
 
 - Adapter: Fornece uma interface entre duas entidades não relacionadas, para que possam trabalhar juntas.
 - Bridge: É usado para desacoplar as interfaces da implementação e ocultar os detalhes de implementação do programacliente;
@@ -34,7 +34,7 @@ Este livro foi publicado em 1994 e é um dos mais populares para se aprender pad
 - Flyweight: Armazenamento em cache e reutilização de instâncias de objeto, usadas com objetos imutáveis. Por exemplo, poo de strings;
 - Proxy: Fornece um substituto ou espaço reservado para outro objeto para controlar o acesso a ele;
 
-# 11 Padrões Comportamentais ( Behavioral Design Patterns)
+## 11 Padrões Comportamentais ( Behavioral Design Patterns)
 
 - Chain of Responsability: usado para obter acoplamento fraco no design do software, onde uma solicitação do cliente épassada para uma cadeia de objetos para processá-los.
 - Command: usado para implementar perda de acoplamento em um modelo de solicitação-resposta.
@@ -48,4 +48,4 @@ Este livro foi publicado em 1994 e é um dos mais populares para se aprender pad
 - Template Method: usado para criar um esboço de método de modelo e adiar algumas das etapas de implementação para as subclasses.
 - Visitor: usado quando temos que realizar uma operação em um grupo de tipos semelhantes de objetos.
 
-# Fonte:https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns
+## Fonte:https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns

@@ -1,13 +1,13 @@
-﻿# FACTORYMETHOD
+﻿# FactoryMethod
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
-# Fonte: https://www.youtube.com/watch?v=uO3xScrljiA
+## Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
+## Fonte: https://www.youtube.com/watch?v=uO3xScrljiA
 
-# Definição
+## Definição
 
 O Factory Method é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
 
-# Problema
+## Problema
 
 Imagine que você está criando uma aplicação de gerenciamento de logística. A primeira versão da sua aplicação pode lidar apenas com o transporte de caminhões, portanto a maior parte do seu código fica dentro da classe Caminhão.
 
@@ -17,7 +17,7 @@ Boa notícia, certo? Mas e o código? Atualmente, a maior parte do seu código �
 
 Como resultado, você terá um código bastante sujo, repleto de condicionais que alteram o comportamento da aplicação, dependendo da classe de objetos de transporte.
 
-# Solução
+## Solução
 	
 À primeira vista, essa mudança pode parecer sem sentido: apenas mudamos a chamada do construtor de uma parte do programa para outra. No entanto, considere o seguinte: agora você pode sobrescrever o método fábrica em uma subclasse e alterar a classe de produtos que estão sendo criados pelo método.
 
@@ -27,9 +27,7 @@ Por exemplo, ambas as classes Caminhão e Navio devem implementar a interface Tr
 
 O código que usa o método fábrica (geralmente chamado de código cliente) não vê diferença entre os produtos reais retornados por várias subclasses. O cliente trata todos os produtos como um Transporte abstrato. O cliente sabe que todos os objetos de transporte devem ter o método entregar, mas como exatamente ele funciona não é importante para o cliente.
 
-# Bônus
-
-# Aplicabilidade
+## Aplicabilidade
 	
 Use o Factory Method quando não souber de antemão os tipos e dependências exatas dos objetos com os quais seu código deve funcionar.
 
@@ -64,7 +62,7 @@ Provavelmente, o lugar mais óbvio e conveniente onde esse código deve ficar é
 	
 Portanto, você precisa ter um método regular capaz de criar novos objetos e reutilizar os existentes. Isso parece muito com um método fábrica.
 
-# Como implementar
+## Como implementar
 	
 1. Faça todos os produtos implementarem a mesma interface. Essa interface deve declarar métodos que fazem sentido em todos os produtos.
 2. Adicione um método fábrica vazio dentro da classe criadora. O tipo de retorno do método deve corresponder à interface comum do produto.
@@ -76,15 +74,23 @@ Pode ser necessário adicionar um parâmetro temporário ao método fábrica par
 Por exemplo, imagine que você tenha a seguinte hierarquia de classes: a classe base Correio com algumas subclasses: CorreioAéreo e CorreioTerrestre; as classes Transporte são Avião, Caminhão e Trem. Enquanto a classe CorreioAéreo usa apenas objetos Avião, o CorreioTerrestre pode funcionar com os objetos Caminhão e Trem. Você pode criar uma nova subclasse (por exemplo, CorreioFerroviário) para lidar com os dois casos, mas há outra opção. O código do cliente pode passar um argumento para o método fábrica da classe CorreioTerrestre para controlar qual produto ele deseja receber.
 6. Se, após todas as extrações, o método fábrica base ficar vazio, você poderá torná-lo abstrato. Se sobrar algo, você pode tornar isso em um comportamento padrão do método.
 
-# Prós
+## Prós
 
 - Você evita acoplamentos firmes entre o criador e os produtos concretos.
 - Princípio de responsabilidade única. Você pode mover o código de criação do produto para um único local do programa,facilitando a manutenção do código.
 - Princípio aberto/fechado. Você pode introduzir novos tipos de produtos no programa sem quebrar o código cliente existente.
 	
-# Contras
+## Contras
 
 - O código pode se tornar mais complicado, pois você precisa introduzir muitas subclasses novas para implementar o padrão. O melhor cenário é quando você está introduzindo o padrão em uma hierarquia existente de classes criadoras.
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
-# Fonte: https://www.youtube.com/watch?v=uO3xScrljiA
+## Relações com outros padrões
+
+- Muitos projetos começam usando o Factory Method (menos complicado e mais customizável através de subclasses) e evoluem para o Abstract Factory, Prototype, ou Builder (mais flexíveis, mas mais complicados).
+- Classes Abstract Factory são quase sempre baseadas em um conjunto de métodos fábrica, mas você também pode usar o Prototype para compor métodos dessas classes.
+- Você pode usar o Factory Method junto com o Iterator para permitir que uma coleção de subclasses retornem diferentes tipos de iteradores que são compatíveis com as coleções.
+- O Prototype não é baseado em heranças, então ele não tem os inconvenientes dela. Por outro lado, o Prototype precisa de uma inicialização complicada do objeto clonado. O Factory Method é baseado em herança mas não precisa de uma etapa de inicialização.
+- O Factory Method é uma especialização do Template Method. Ao mesmo tempo, o Factory Method pode servir como uma etapa em um Template Method grande.
+
+## Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
+## Fonte: https://www.youtube.com/watch?v=uO3xScrljiA

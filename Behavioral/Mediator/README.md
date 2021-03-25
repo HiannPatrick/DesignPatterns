@@ -1,13 +1,13 @@
 ﻿# Mediator 
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/mediator 
-# Fonte: https://www.youtube.com/watch?v=_io-phpFYVk
+## Fonte: https://refactoring.guru/pt-br/design-patterns/mediator 
+## Fonte: https://www.youtube.com/watch?v=_io-phpFYVk
 
-# Definição 
+## Definição 
 	
 O Mediator é um padrão de projeto comportamental que permite que você reduza as dependências caóticas entre objetos. O padrão restringe comunicações diretas entre objetos e os força a colaborar apenas através do objeto mediador.
 
-# Problema 
+## Problema 
 
 Digamos que você tem uma caixa de diálogo para criar e editar perfis de clientes. Ela consiste em vários controles de formulário tais como campos de texto, caixas de seleção, botões, etc.
 
@@ -15,7 +15,7 @@ Alguns dos elementos do formulário podem interagir com outros. Por exemplo, sel
 
 Ao ter essa lógica implementada diretamente dentro do código dos elementos de formulários você torna as classes dos elementos muito difíceis de se reutilizar em outros formulários da aplicação. Por exemplo, você não será capaz de usar aquela classe de caixa de seleção dentro de outro formulário porque ela está acoplado com o campo de texto do nome do cão. Você pode ter ou todas as classes envolvidas na renderização do formulário de perfil, ou nenhuma.
 
-# Solução
+## Solução
 
 O padrão Mediator sugere que você deveria cessar toda comunicação direta entre componentes que você quer tornar independentes um do outro. Ao invés disso, esses componentes devem colaborar indiretamente, chamando um objeto mediador especial que redireciona as chamadas para os componentes apropriados. Como resultado, os componentes dependem apenas de uma única classe mediadora ao invés de serem acoplados a dúzias de outros colegas.
 
@@ -27,9 +27,7 @@ Você pode ir além e fazer a dependência ainda mais frouxa extraindo a interfa
 
 Dessa forma, o padrão Mediator permite que você encapsule uma complexa rede de relações entre vários objetos em apenas um objeto mediador. Quanto menos dependências uma classe tenha, mais fácil essa classe se torna para se modificar, estender, ou reutilizar.
 
-# Bônus 
-
-# Analogia com o mundo real 
+## Analogia com o mundo real 
 	
 Os pilotos de aeronaves que se aproximam ou partem da área de controle do aeroporto não se comunicam diretamente entre si. Ao invés disso falam com um controlador de tráfego aéreo, que está sentando em uma torre alta perto da pista de aterrissagem.
 
@@ -37,7 +35,7 @@ Sem o controlador do tráfego aéreo os pilotos precisariam estar cientes de cad
 
 A torre não precisa fazer o controle de todo o voo. Ela existe apenas para garantir o condicionamento da área do terminal devido ao número de pessoas envolvidas ali, o que poderia ser demais para um piloto.
 
-# Aplicabilidade 
+## Aplicabilidade 
 
 Utilize o padrão Mediator quando é difícil mudar algumas das classes porque elas estão firmemente acopladas a várias outras classes. 
 
@@ -51,7 +49,7 @@ Utilize o Mediator quando você se encontrar criando um monte de subclasses para
 
 Como todas as relações entre componentes estão contidas dentro do mediador, é fácil definir novas maneiras para esses componentes colaborarem introduzindo novas classes mediadoras, sem ter que mudar os próprios componentes.
 
-# Como implementar 
+## Como implementar 
 	
 1. Identifique um grupo de classes firmemente acopladas que se beneficiariam de estar mais independentes (por exemplo, para uma manutenção ou reutilização mais fácil dessas classes). 
 2. Declare a interface do mediador e descreva o protocolo de comunicação desejado entre os mediadores e os diversos componentes. Na maioria dos casos, um único método para receber notificações de componentes é suficiente. Essa interface é crucial quando você quer reutilizar classes componente em diferentes contextos. Desde que o componente trabalhe com seu mediador através da interface genérica, você pode ligar o componente com diferentes implementações do mediador. 
@@ -60,14 +58,36 @@ Como todas as relações entre componentes estão contidas dentro do mediador, �
 5. Componentes devem armazenar uma referência ao objeto do mediador. A conexão é geralmente estabelecida no construtor do componente, onde o objeto mediador é passado como um argumento. 
 6. Mude o código dos componentes para que eles chamem o método de notificação do mediador ao invés de métodos de outros componentes. Extraia o código que envolve chamar os outros componentes para a classe do mediador. Execute esse código sempre que o mediador receba notificações daquele componente.
 
-# Prós 
+## Prós 
 
 - Princípio de responsabilidade única. Você pode extrair as comunicações entre vários componentes para um único lugar, tornando as de mais fácil entendimento e manutenção. 
 - Princípio aberto/fechado. Você pode introduzir novos mediadores sem ter que mudar os próprios componentes. - Você pode reduzir o acoplamento entre os vários componentes de um programa. 
 - Você pode reutilizar componentes individuais mais facilmente.
 
-# Contras 
+## Contras 
 
 - Com o tempo um mediador pode evoluir para um Objeto Deus.
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/mediator Fonte: https://www.youtube.com/watch?v=_io-phpFYVk
+## Relações com outros padrões
+
+- O Chain of Responsibility, Command, Mediator e Observer abrangem várias maneiras de se conectar remetentes e destinatários de pedidos:
+	* O Chain of Responsibility passa um pedido sequencialmente ao longo de um corrente dinâmica de potenciais destinatários até que um deles atua no pedido.
+	* O Command estabelece conexões unidirecionais entre remetentes e destinatários.
+	* O Mediator elimina as conexões diretas entre remetentes e destinatários, forçando-os a se comunicar indiretamente através de um objeto mediador.
+	* O Observer permite que destinatários inscrevam-se ou cancelem sua inscrição dinamicamente para receber pedidos.
+
+- O Facade e o Mediator têm trabalhos parecidos: eles tentam organizar uma colaboração entre classes firmemente acopladas.
+	* O Facade define uma interface simplificada para um subsistema de objetos, mas ele não introduz qualquer nova funcionalidade. O próprio subsistema não está ciente da fachada. Objetos dentro do subsistema podem se comunicar diretamente.
+	* O Mediator centraliza a comunicação entre componentes do sistema. Os componentes só sabem do objeto mediador e não se comunicam diretamente.
+
+- A diferença entre o Mediator e o Observer é bem obscura. Na maioria dos casos, você pode implementar qualquer um desses padrões; mas às vezes você pode aplicar ambos simultaneamente. Vamos ver como podemos fazer isso.
+
+O objetivo primário do Mediator é eliminar dependências múltiplas entre um conjunto de componentes do sistema. Ao invés disso, esses componentes se tornam dependentes de um único objeto mediador. O objetivo do Observer é estabelecer comunicações de uma via dinâmicas entre objetos, onde alguns deles agem como subordinados de outros.
+
+Existe uma implementação popular do padrão Mediator que depende do Observer. O objeto mediador faz o papel de um publicador, e os componentes agem como assinantes que inscrevem-se ou removem a inscrição aos eventos do mediador. Quando o Mediator é implementado dessa forma, ele pode parecer muito similar ao Observer.
+
+Quando você está confuso, lembre-se que você pode implementar o padrão Mediator de outras maneiras. Por exemplo, você pode ligar permanentemente todos os componentes ao mesmo objeto mediador. Essa implementação não se parece com o Observer mas ainda irá ser uma instância do padrão Mediator.
+
+Agora imagine um programa onde todos os componentes se tornaram publicadores permitindo conexões dinâmicas entre si. Não haverá um objeto mediador centralizado, somente um conjunto distribuído de observadores.
+
+## Fonte: https://refactoring.guru/pt-br/design-patterns/mediator Fonte: https://www.youtube.com/watch?v=_io-phpFYVk

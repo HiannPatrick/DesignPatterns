@@ -1,12 +1,12 @@
 ﻿# Singleton
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
+## Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 
-# Definição
+## Definição
 	
 O Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
 
-# Problema
+## Problema
 	
 O padrão Singleton resolve dois problemas de uma só vez, violando o princípio de responsabilidade única:
 	
@@ -17,9 +17,9 @@ Observe que esse comportamento é impossível implementar com um construtor regu
 
 Assim como uma variável global, o padrão Singleton permite que você acesse algum objeto de qualquer lugar no programa. Contudo, ele também protege aquela instância de ser sobrescrita por outro código.
 
-Há outro lado para esse problema: você não quer que o código que resolve o problema #1 fique espalhado por todo seu programa. É muito melhor tê-lo dentro de uma classe, especialmente se o resto do seu código já depende dela.
+Há outro lado para esse problema: você não quer que o código que resolve o problema ##1 fique espalhado por todo seu programa. É muito melhor tê-lo dentro de uma classe, especialmente se o resto do seu código já depende dela.
 
-# Solução
+## Solução
 
 Todas as implementações do Singleton tem esses dois passos em comum:
 
@@ -28,13 +28,11 @@ Todas as implementações do Singleton tem esses dois passos em comum:
 	
 Se o seu código tem acesso à classe singleton, então ele será capaz de chamar o método estático da singleton. Então sempre que aquele método é chamado, o mesmo objeto é retornado.
 
-# Bônus
-
-# Analogia com o mundo real
+## Analogia com o mundo real
 
 O governo é um excelente exemplo de um padrão Singleton. Um país pode ter apenas um governo oficial. Independentemente das identidades pessoais dos indivíduos que formam governos, o título, “O Governo de X”, é um ponto de acesso global que identifica o grupo de pessoas no command.
 
-# Aplicabilidade
+## Aplicabilidade
 
 Utilize o padrão Singleton quando uma classe em seu programa deve ter apenas uma instância disponível para todos seus clientes; por exemplo, um objeto de base de dados único compartilhado por diferentes partes do programa.
 	
@@ -46,7 +44,7 @@ Ao contrário das variáveis globais, o padrão Singleton garante que há apenas
 	
 Observe que você sempre pode ajustar essa limitação e permitir a criação de qualquer número de instâncias singleton. O único pedaço de código que requer mudanças é o corpo do método getInstance.
 
-# Como implementar
+## Como implementar
 	
 1. Adicione um campo privado estático na classe para o armazenamento da instância singleton.
 2. Declare um método de criação público estático para obter a instância singleton.
@@ -54,17 +52,25 @@ Observe que você sempre pode ajustar essa limitação e permitir a criação de
 4. Faça o construtor da classe ser privado. O método estático da classe vai ainda ser capaz de chamar o construtor, mas não os demais objetos.
 5. Vá para o código cliente e substitua todas as chamadas diretas para o construtor do singleton com chamadas para seu método de criação estático.
 
-# Prós
+## Prós
 	
 - Você pode ter certeza que uma classe só terá uma única instância.
 - Você ganha um ponto de acesso global para aquela instância.
 - O objeto singleton é inicializado somente quando for pedido pela primeira vez.
 
-# Contras
+## Contras
 
 - No caso de utilização dos principios SOLID, viola o princípio de responsabilidade única. O padrão resolve dois problemas de uma só vez.
 - O padrão Singleton pode mascarar um design ruim, por exemplo, quando os componentes do programa sabem muito sobre cadaum.
 - O padrão requer tratamento especial em um ambiente multithreaded para que múltiplas threads não possam criar um objetosingleton várias vezes.
 - Pode ser difícil realizar testes unitários do código cliente do Singleton porque muitos frameworks de teste dependem de herança quando produzem objetos simulados. Já que o construtor da classe singleton é privado e sobrescrever métodos estáticos é impossível na maioria das linguagem, você terá que pensar em uma maneira criativa de simular o singleton. Ou apenas não escreva os testes. Ou não use o padrão Singleton.
 
-# Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
+## Relações com outros padrões
+
+- Uma classe Facade pode frequentemente ser transformada em uma Singleton já que um único objeto Facade é suficiente na maioria dos casos.
+- O Flyweight seria parecido com o Singleton se você, de algum modo, reduzisse todos os estados de objetos compartilhados para apenas um objeto Flyweight. Mas há duas mudanças fundamentais entre esses padrões:
+- Deve haver apenas uma única instância singleton, enquanto que uma classe flyweight pode ter múltiplas instâncias com diferentes estados intrínsecos.
+- O objeto singleton pode ser mutável. Objetos flyweight são imutáveis.
+- As AbstractFactory, Builders, e Prototype podem todos ser implementados como Singletons.
+
+## Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
