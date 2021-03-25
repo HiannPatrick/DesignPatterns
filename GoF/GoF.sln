@@ -50,7 +50,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "Abstract
 		..\Creational\AbstractFactory\README.md = ..\Creational\AbstractFactory\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory_Exemplo1", "..\Creational\AbstractFactory\AbstractFactory_Exemplo1\AbstractFactory_Exemplo1.csproj", "{973B9E66-A32D-4096-B32A-53BA2FD6199F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory_Exemplo1", "..\Creational\AbstractFactory\AbstractFactory_Exemplo1\AbstractFactory_Exemplo1.csproj", "{973B9E66-A32D-4096-B32A-53BA2FD6199F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{6F1649AC-7304-4040-BD93-12E1D4CC1991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_Exemplo1", "..\Creational\Builder\Builder_Exemplo1\Builder_Exemplo1.csproj", "{ECD213D5-E6EF-4B2E-98D7-C7861A143B40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +98,10 @@ Global
 		{973B9E66-A32D-4096-B32A-53BA2FD6199F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{973B9E66-A32D-4096-B32A-53BA2FD6199F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{973B9E66-A32D-4096-B32A-53BA2FD6199F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD213D5-E6EF-4B2E-98D7-C7861A143B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD213D5-E6EF-4B2E-98D7-C7861A143B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD213D5-E6EF-4B2E-98D7-C7861A143B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD213D5-E6EF-4B2E-98D7-C7861A143B40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +120,8 @@ Global
 		{E7E97CAC-0581-4E45-8208-EB3697E59556} = {E8022DEE-210C-418E-9217-E462F447326E}
 		{994BB42F-481C-4CEA-96BD-B91DE9C6CB82} = {7228BAB4-5DDD-4702-90C0-12FA4AE46500}
 		{973B9E66-A32D-4096-B32A-53BA2FD6199F} = {994BB42F-481C-4CEA-96BD-B91DE9C6CB82}
+		{6F1649AC-7304-4040-BD93-12E1D4CC1991} = {7228BAB4-5DDD-4702-90C0-12FA4AE46500}
+		{ECD213D5-E6EF-4B2E-98D7-C7861A143B40} = {6F1649AC-7304-4040-BD93-12E1D4CC1991}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00B2D8FC-6A90-46CE-AE1F-0695301ECE67}
