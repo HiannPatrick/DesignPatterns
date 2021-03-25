@@ -1,6 +1,6 @@
 ﻿# Prototype
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
+## Fonte: https://refactoring.guru/pt-br/design-patterns/prototype
 ## Fonte: https://www.youtube.com/watch?v=ugIa2rPwiOw
 
 ## Definição
@@ -76,5 +76,5 @@ Por fim, substitua as chamadas diretas para os construtores das subclasses com c
 - Algumas vezes o Prototype pode ser uma alternativa mais simples a um Memento. Isso funciona se o objeto, o estado no qual você quer armazenar na história, é razoavelmente intuitivo e não tem ligações para recursos externos, ou as ligações são fáceis de se restabelecer.
 - As Abstract Factory, Builders, e Prototypes podem todos ser implementados como Singletons.
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
+## Fonte: https://refactoring.guru/pt-br/design-patterns/prototype
 ## Fonte: https://www.youtube.com/watch?v=ugIa2rPwiOw

@@ -13,4 +13,3 @@ C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\GoF\obj\Debug\net5.0\GoF
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\GoF\obj\Debug\net5.0\ref\GoF.dll
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\GoF\obj\Debug\net5.0\GoF.pdb
 C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\GoF\obj\Debug\net5.0\GoF.genruntimeconfig.cache
-C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\GoF\obj\Debug\net5.0\GoF.csprojAssemblyReference.cache
