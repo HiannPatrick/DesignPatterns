@@ -1,0 +1,15 @@
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\bin\Debug\net5.0\Adapter_Exemplo1.exe
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\bin\Debug\net5.0\Adapter_Exemplo1.deps.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\bin\Debug\net5.0\Adapter_Exemplo1.runtimeconfig.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\bin\Debug\net5.0\Adapter_Exemplo1.runtimeconfig.dev.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\bin\Debug\net5.0\Adapter_Exemplo1.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\bin\Debug\net5.0\ref\Adapter_Exemplo1.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\bin\Debug\net5.0\Adapter_Exemplo1.pdb
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\Adapter_Exemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\Adapter_Exemplo1.AssemblyInfoInputs.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\Adapter_Exemplo1.AssemblyInfo.cs
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\Adapter_Exemplo1.csproj.CoreCompileInputs.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\Adapter_Exemplo1.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\ref\Adapter_Exemplo1.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\Adapter_Exemplo1.pdb
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Structural\Adapter\Adapter_Exemplo1\obj\Debug\net5.0\Adapter_Exemplo1.genruntimeconfig.cache

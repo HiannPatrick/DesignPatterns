@@ -1,5 +1,9 @@
 ﻿# GoF
 
+## Fontes
+
+https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns
+
 ## Design Pattern Gangs of Four
 
 Gangs of Four Design Pattern, é uma coleção de 23 Design Patterns do livro "Design Patterns: Elements of Reusable Object Oriented Software" ("Padrões de Projeto: Elementos de softwares orientado a objetos reutilizáveis", em tradução livre).
@@ -47,5 +51,3 @@ Este livro foi publicado em 1994 e é um dos mais populares para se aprender pad
 - Strategy: usado quando temos vários algoritmos para uma tarefa específica e o cliente decide a implementação real a ser usada no tempo de execução.
 - Template Method: usado para criar um esboço de método de modelo e adiar algumas das etapas de implementação para as subclasses.
 - Visitor: usado quando temos que realizar uma operação em um grupo de tipos semelhantes de objetos.
-
-## Fonte:https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns

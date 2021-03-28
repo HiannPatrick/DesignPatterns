@@ -1,7 +1,11 @@
 ﻿# Mediator 
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/mediator 
-## Fonte: https://www.youtube.com/watch?v=_io-phpFYVk
+Também conhecido como: Mediador, Intermediário, Intermediary, Controlador, Controller
+
+## Fontes 
+
+https://refactoring.guru/pt-br/design-patterns/mediator 
+https://www.youtube.com/watch?v=_io-phpFYVk
 
 ## Definição 
 	
@@ -89,5 +93,3 @@ Existe uma implementação popular do padrão Mediator que depende do Observer. 
 Quando você está confuso, lembre-se que você pode implementar o padrão Mediator de outras maneiras. Por exemplo, você pode ligar permanentemente todos os componentes ao mesmo objeto mediador. Essa implementação não se parece com o Observer mas ainda irá ser uma instância do padrão Mediator.
 
 Agora imagine um programa onde todos os componentes se tornaram publicadores permitindo conexões dinâmicas entre si. Não haverá um objeto mediador centralizado, somente um conjunto distribuído de observadores.
-
-## Fonte: https://refactoring.guru/pt-br/design-patterns/mediator Fonte: https://www.youtube.com/watch?v=_io-phpFYVk

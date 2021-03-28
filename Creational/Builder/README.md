@@ -1,7 +1,11 @@
 ﻿# Builder
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/builder
-## Fonte: https://www.youtube.com/watch?v=eeMk6__g_nE
+Também conhecido como: Construtor
+
+## Fontes: 
+
+https://refactoring.guru/pt-br/design-patterns/builder
+https://www.youtube.com/watch?v=eeMk6__g_nE
 
 ## Definição
 
@@ -87,6 +91,3 @@ Não se esqueça de implementar um método para recuperar os resultados da const
 - Você pode usar o Builder quando criar árvores Composite complexas porque você pode programar suas etapas de construção para trabalhar recursivamente.
 - Você pode combinar o Builder com o Bridge: a classe diretor tem um papel de abstração, enquanto que diferentes construtores agem como implementações.
 - As AbstractFactory, Builders, e Prototype podem todos ser implementados como Singletons.
-
-## Fonte: https://refactoring.guru/pt-br/design-patterns/builder
-## Fonte: https://www.youtube.com/watch?v=eeMk6__g_nE

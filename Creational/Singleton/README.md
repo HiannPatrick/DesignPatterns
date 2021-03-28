@@ -1,6 +1,10 @@
 ﻿# Singleton
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
+Também conhecido como: Carta única
+
+## Fontes 
+
+https://refactoring.guru/pt-br/design-patterns/singleton
 
 ## Definição
 	
@@ -72,5 +76,3 @@ Observe que você sempre pode ajustar essa limitação e permitir a criação de
 - Deve haver apenas uma única instância singleton, enquanto que uma classe flyweight pode ter múltiplas instâncias com diferentes estados intrínsecos.
 - O objeto singleton pode ser mutável. Objetos flyweight são imutáveis.
 - As AbstractFactory, Builders, e Prototype podem todos ser implementados como Singletons.
-
-## Fonte: https://refactoring.guru/pt-br/design-patterns/singleton

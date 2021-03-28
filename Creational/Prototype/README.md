@@ -1,7 +1,11 @@
 ﻿# Prototype
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/prototype
-## Fonte: https://www.youtube.com/watch?v=ugIa2rPwiOw
+Também conhecido como: Protótipo, Clone
+
+## Fontes 
+
+https://refactoring.guru/pt-br/design-patterns/prototype
+https://www.youtube.com/watch?v=ugIa2rPwiOw
 
 ## Definição
 	
@@ -75,6 +79,3 @@ Por fim, substitua as chamadas diretas para os construtores das subclasses com c
 - O Prototype não é baseado em heranças, então ele não tem os inconvenientes dela. Por outro lado, o Prototype precisa de uma inicialização complicada do objeto clonado. O Factory Method é baseado em herança mas não precisa de uma etapa de inicialização.
 - Algumas vezes o Prototype pode ser uma alternativa mais simples a um Memento. Isso funciona se o objeto, o estado no qual você quer armazenar na história, é razoavelmente intuitivo e não tem ligações para recursos externos, ou as ligações são fáceis de se restabelecer.
 - As Abstract Factory, Builders, e Prototypes podem todos ser implementados como Singletons.
-
-## Fonte: https://refactoring.guru/pt-br/design-patterns/prototype
-## Fonte: https://www.youtube.com/watch?v=ugIa2rPwiOw

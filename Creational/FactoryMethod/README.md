@@ -1,7 +1,11 @@
 ﻿# FactoryMethod
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
-## Fonte: https://www.youtube.com/watch?v=uO3xScrljiA
+Também conhecido como: Método fábrica, Construtor virtual
+
+## Fontes 
+
+https://refactoring.guru/pt-br/design-patterns/factory-method
+https://www.youtube.com/watch?v=uO3xScrljiA
 
 ## Definição
 
@@ -91,6 +95,3 @@ Por exemplo, imagine que você tenha a seguinte hierarquia de classes: a classe 
 - Você pode usar o Factory Method junto com o Iterator para permitir que uma coleção de subclasses retornem diferentes tipos de iteradores que são compatíveis com as coleções.
 - O Prototype não é baseado em heranças, então ele não tem os inconvenientes dela. Por outro lado, o Prototype precisa de uma inicialização complicada do objeto clonado. O Factory Method é baseado em herança mas não precisa de uma etapa de inicialização.
 - O Factory Method é uma especialização do Template Method. Ao mesmo tempo, o Factory Method pode servir como uma etapa em um Template Method grande.
-
-## Fonte: https://refactoring.guru/pt-br/design-patterns/factory-method
-## Fonte: https://www.youtube.com/watch?v=uO3xScrljiA

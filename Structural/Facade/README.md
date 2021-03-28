@@ -1,6 +1,10 @@
 ﻿# Facade
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/facade
+Também conhecido como: Fachada
+
+## Fontes 
+
+https://refactoring.guru/pt-br/design-patterns/facade
 
 ## Definição
 
@@ -70,5 +74,3 @@ Por exemplo, vamos retornar ao nosso framework de conversão de vídeo. Ele pode
 - Uma classe Facade pode frequentemente ser transformada em uma singleton já que um único objeto fachada é suficiente na maioria dos casos.
 
 - O Facade é parecido como o Proxy no quesito que ambos colocam em buffer uma entidade complexa e inicializam ela sozinhos. Ao contrário do Facade, o Proxy tem a mesma interface que seu objeto de serviço, o que os torna intermutáveis.
-
-## Fonte: https://refactoring.guru/pt-br/design-patterns/facade

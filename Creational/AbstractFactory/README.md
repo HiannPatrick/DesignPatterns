@@ -1,7 +1,11 @@
 ﻿# AbstractFactory
 
-## Fonte: https://refactoring.guru/pt-br/design-patterns/abstract-factory
-## Fonte: https://www.youtube.com/watch?v=5qowLOsyz3A
+Também conhecido como: Fábrica abstrata
+
+## Fontes 
+
+https://refactoring.guru/pt-br/design-patterns/abstract-factory
+https://www.youtube.com/watch?v=5qowLOsyz3A
 
 ## Definição
 
@@ -70,6 +74,3 @@ Em um programa bem desenvolvido cada classe é responsável por apenas uma coisa
 - O Abstract Factory pode servir como uma alternativa para o Facade quando você precisa apenas esconder do código cliente a forma com que são criados os objetos do subsistema.
 - Você pode usar o Abstract Factory junto com o Bridge. Esse pareamento é útil quando algumas abstrações definidas pelo Bridge só podem trabalhar com implementações específicas. Neste caso, o Abstract Factory pode encapsular essas relações e esconder a complexidade do código cliente.
 - As AbstractFactory, Builders, e Prototype podem todos ser implementados como Singletons.
-
-## Fonte: https://refactoring.guru/pt-br/design-patterns/abstract-factory
-## Fonte: https://www.youtube.com/watch?v=5qowLOsyz3A
