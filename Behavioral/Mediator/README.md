@@ -106,11 +106,3 @@ O uso mais popular do padrão Mediator no código C# é facilitar a comunicaçã
 ### Identificação 
 
 <Não se aplica>
-
-### Exemplo conceitual
-
-Este exemplo ilustra a estrutura do padrão de projeto Mediator. Ele se concentra em responder a estas perguntas:
-
-De quais classes ele consiste?
-Quais papéis essas classes desempenham?
-De que maneira os elementos do padrão estão relacionados?

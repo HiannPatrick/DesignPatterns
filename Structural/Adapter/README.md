@@ -96,11 +96,3 @@ O padrão Adapter é bastante comum no código C#. É frequentemente usado em si
 ### Identificação 
 
 O adapter é reconhecível por um construtor que utiliza uma instância de tipo abstrato/interface diferente. Quando o adaptador recebe uma chamada para qualquer um de seus métodos, ele converte parâmetros para o formato apropriado e direciona a chamada para um ou vários métodos do objeto envolvido.
-
-### Exemplo conceitual
-
-Este exemplo ilustra a estrutura do padrão de projeto Adapter. Ele se concentra em responder a estas perguntas:
-
-De quais classes ele consiste?
-Quais papéis essas classes desempenham?
-De que maneira os elementos do padrão estão relacionados?

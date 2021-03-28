@@ -5,11 +5,18 @@ Também conhecido como: Fábrica abstrata
 ## Fontes 
 
 https://refactoring.guru/pt-br/design-patterns/abstract-factory
-https://www.youtube.com/watch?v=5qowLOsyz3A
+https://www.youtube.com/watch?v=5qowLOsyz3A (Usado como base para o AbstractFactory_Exemplo1)
+https://refactoring.guru/pt-br/design-patterns/abstract-factory/csharp/example (AbstractFactory_Exemplo1)
 
 ## Definição
 
 O Abstract Factory é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.
+
+O Abstract Factory define uma interface para criar todos os produtos distintos, mas deixa a criação real do produto para classes fábrica concretas. Cada tipo de fábrica corresponde a uma determinada variedade de produtos.
+
+O código cliente chama os métodos de criação de um objeto fábrica em vez de criar produtos diretamente com uma chamada de construtor (usando operador new). Como uma fábrica corresponde a uma única variante de produto, todos os seus produtos serão compatíveis.
+
+O código cliente trabalha com fábricas e produtos somente através de suas interfaces abstratas. Ele permite que o mesmo código cliente funcione com produtos diferentes. Você apenas cria uma nova classe fábrica concreta e a passa para o código cliente.
 
 ## Problema
 
@@ -74,3 +81,13 @@ Em um programa bem desenvolvido cada classe é responsável por apenas uma coisa
 - O Abstract Factory pode servir como uma alternativa para o Facade quando você precisa apenas esconder do código cliente a forma com que são criados os objetos do subsistema.
 - Você pode usar o Abstract Factory junto com o Bridge. Esse pareamento é útil quando algumas abstrações definidas pelo Bridge só podem trabalhar com implementações específicas. Neste caso, o Abstract Factory pode encapsular essas relações e esconder a complexidade do código cliente.
 - As AbstractFactory, Builders, e Prototype podem todos ser implementados como Singletons.
+
+## Implementação em C#
+
+### Exemplos de uso 
+
+O padrão Abstract Factory é bastante comum no código C#. Muitas frameworks e bibliotecas o utilizam para fornecer uma maneira de estender e personalizar seus componentes padrão.
+
+### Identificação 
+
+O padrão é fácil de reconhecer pelos seus métodos, que retornam um objeto fárica. Em seguida, a fábrica é usado para criar subcomponentes específicos.
