@@ -1,12 +1,6 @@
 ﻿using AbstractFactory_Exemplo1.Abstract;
 using AbstractFactory_Exemplo1.Database;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace AbstractFactory_Exemplo1
 {
 	public class OracleDatabase : AbstractDatabase

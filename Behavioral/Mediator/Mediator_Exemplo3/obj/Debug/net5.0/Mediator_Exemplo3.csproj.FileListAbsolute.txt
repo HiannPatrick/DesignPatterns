@@ -1,0 +1,15 @@
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\bin\Debug\net5.0\Mediator_Exemplo3.exe
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\bin\Debug\net5.0\Mediator_Exemplo3.deps.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\bin\Debug\net5.0\Mediator_Exemplo3.runtimeconfig.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\bin\Debug\net5.0\Mediator_Exemplo3.runtimeconfig.dev.json
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\bin\Debug\net5.0\Mediator_Exemplo3.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\bin\Debug\net5.0\ref\Mediator_Exemplo3.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\bin\Debug\net5.0\Mediator_Exemplo3.pdb
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\Mediator_Exemplo3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\Mediator_Exemplo3.AssemblyInfoInputs.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\Mediator_Exemplo3.AssemblyInfo.cs
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\Mediator_Exemplo3.csproj.CoreCompileInputs.cache
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\Mediator_Exemplo3.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\ref\Mediator_Exemplo3.dll
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\Mediator_Exemplo3.pdb
+C:\Users\patri\Source\repos\HiannPatrick\DesignPatterns\Behavioral\Mediator\Mediator_Exemplo3\obj\Debug\net5.0\Mediator_Exemplo3.genruntimeconfig.cache

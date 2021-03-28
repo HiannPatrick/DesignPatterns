@@ -5,11 +5,14 @@ Também conhecido como: Mediador, Intermediário, Intermediary, Controlador, Con
 ## Fontes 
 
 https://refactoring.guru/pt-br/design-patterns/mediator 
-https://www.youtube.com/watch?v=_io-phpFYVk
+https://www.youtube.com/watch?v=_io-phpFYVk (Mediator_Exemplo1)
+https://refactoring.guru/pt-br/design-patterns/mediator/csharp/example (Mediator_Exemplo3) <- Esse aqui está bem mais fácil de entender.
 
 ## Definição 
 	
 O Mediator é um padrão de projeto comportamental que permite que você reduza as dependências caóticas entre objetos. O padrão restringe comunicações diretas entre objetos e os força a colaborar apenas através do objeto mediador.
+
+O Mediator facilita a modificação, a extensão e a reutilização de componentes individuais porque eles não são mais dependentes de dezenas de outras classes.
 
 ## Problema 
 
@@ -93,3 +96,21 @@ Existe uma implementação popular do padrão Mediator que depende do Observer. 
 Quando você está confuso, lembre-se que você pode implementar o padrão Mediator de outras maneiras. Por exemplo, você pode ligar permanentemente todos os componentes ao mesmo objeto mediador. Essa implementação não se parece com o Observer mas ainda irá ser uma instância do padrão Mediator.
 
 Agora imagine um programa onde todos os componentes se tornaram publicadores permitindo conexões dinâmicas entre si. Não haverá um objeto mediador centralizado, somente um conjunto distribuído de observadores.
+
+## Implementação em C#
+
+### Exemplos de uso 
+
+O uso mais popular do padrão Mediator no código C# é facilitar a comunicação entre os componentes de interface do usuário de uma aplicação. O sinônimo do Mediator é a parte do Controlador do padrão MVC.
+
+### Identificação 
+
+<Não se aplica>
+
+### Exemplo conceitual
+
+Este exemplo ilustra a estrutura do padrão de projeto Mediator. Ele se concentra em responder a estas perguntas:
+
+De quais classes ele consiste?
+Quais papéis essas classes desempenham?
+De que maneira os elementos do padrão estão relacionados?

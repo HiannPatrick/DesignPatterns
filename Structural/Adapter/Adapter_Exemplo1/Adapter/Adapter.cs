@@ -2,6 +2,8 @@
 
 namespace Adapter_Exemplo1.Adapter
 {
+	// The Adapter makes the Adaptee's interface compatible with the Target's
+	// interface.
 	public class Adapter : ITarget
 	{
 		private readonly Adaptee _adaptee;
