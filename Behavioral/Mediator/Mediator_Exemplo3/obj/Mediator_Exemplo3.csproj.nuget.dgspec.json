@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj": {}
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj": {
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj",
+        "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj",
         "projectName": "Mediator_Exemplo3",
-        "projectPath": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj",
+        "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\obj\\",
+        "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

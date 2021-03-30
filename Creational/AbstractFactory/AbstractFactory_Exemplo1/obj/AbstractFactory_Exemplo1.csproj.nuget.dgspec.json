@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj": {}
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj": {
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
+        "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
         "projectName": "AbstractFactory_Exemplo1",
-        "projectPath": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
+        "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\obj\\",
+        "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

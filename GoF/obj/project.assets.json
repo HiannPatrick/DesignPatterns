@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\GoF\\GoF.csproj",
+      "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\GoF\\GoF.csproj",
       "projectName": "GoF",
-      "projectPath": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\GoF\\GoF.csproj",
+      "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\GoF\\GoF.csproj",
       "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patri\\Source\\repos\\HiannPatrick\\DesignPatterns\\GoF\\obj\\",
+      "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\GoF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
