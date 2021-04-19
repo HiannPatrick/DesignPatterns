@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1sVTm5jZL9D8UbYOXGI+KEsn3tYY13snzmAinIBd93Gur95CTCioJ19Sq0neP2tEnJv1QEj7n6qnk2Zzl7oxg==",
+  "dgSpecHash": "TTtJm1q2P+lq8hFjwaTfONyPVrngca8zRI8NJ3vZ2Rnd17qmL2HaduR8xg9LJpwiqL6TZraGOd0wCBKKHfSe0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\Builder\\Builder_Exemplo1\\Builder_Exemplo1.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\Builder\\Builder_Exemplo1\\Builder_Exemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

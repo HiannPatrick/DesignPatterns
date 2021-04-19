@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
+      "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
       "projectName": "AbstractFactory_Exemplo1",
-      "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
+      "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
       "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\obj\\",
+      "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

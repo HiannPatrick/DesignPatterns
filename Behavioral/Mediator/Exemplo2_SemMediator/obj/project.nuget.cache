@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tb99zVtoAEuMBBpqRM8PSqzMwzSxAevdn+iNdugIZuA5HYWVMTKutdpjLchFEkTG8bOoZYxBHj/N0SyAvzYffQ==",
+  "dgSpecHash": "ZKdYQdTpAqANw8pS+Yv1+k8WaTmgqmLMloG3DOCLC3Upbui+JNdaoA1p5NgCi+1yAr+Ng8fTedq/ARV9dh+AZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Exemplo2_SemMediator\\Exemplo2_SemMediator.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Behavioral\\Mediator\\Exemplo2_SemMediator\\Exemplo2_SemMediator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

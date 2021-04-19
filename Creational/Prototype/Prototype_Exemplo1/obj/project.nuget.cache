@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lbtRG02vdJJhPdNcAcgFRR7sLnszYOO0H2ydc21AptBZswJ7fxhxp5AQ/fHMkwSdrm/q5YQh1FNB7V9/GIAbmQ==",
+  "dgSpecHash": "uJailBBPC8TGirVoT6gOy4zf5p8gIQcp5rIhYsM30l3g91l3pdN82de0a+1L3TDNG6X6RDBHYi+qEAiIcyRCWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\Prototype\\Prototype_Exemplo1\\Prototype_Exemplo1.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\Prototype\\Prototype_Exemplo1\\Prototype_Exemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

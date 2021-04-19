@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YMw4mRI67pLv5vEfflBWBcrJcIDZSq1f9khsZUaInPlr+O6gWWFyVveLY0TuLoNJZvXDamOSsbp/OHf1i7POJA==",
+  "dgSpecHash": "7bfVZIAdBU8y0FiC2ozdcYly9QXohY6Y7Y+8DT0rYAu3TzFZ57jWR16kUXhhidJXDdDa760I1gRcARAzGrArsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Structural\\Adapter\\Adapter_Exemplo1\\Adapter_Exemplo1.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Structural\\Adapter\\Adapter_Exemplo1\\Adapter_Exemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

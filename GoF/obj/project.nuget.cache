@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S8sFOUk4x5RI1k31jhzjEH1o9vqZ1GbAlWQxcW709o4I9NjGDOsKy7om9ZoVs/De5LifG7syDYDtkH1HCTkipg==",
+  "dgSpecHash": "6bikykafOKNbVNFFyUDOD9QX9VvYLPIclI9E/Iu3GfQW8qoGewCmvjtV5r9TJNXbn5kLMR57qe40c0IUfolSxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\GoF\\GoF.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\GoF\\GoF.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

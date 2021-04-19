@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mJprAlvZdhl38q+k2v40P0/VoA7prMJc3RVPAeAUmGao1vKFoIH2R8YlHljnpj1T/ogMoRLtBXGbAR066Sscaw==",
+  "dgSpecHash": "xOZOQeUKgbJuGKLVxVvk08sUWoUo6hVx5FXpuYAZLVqQU0T0P2rHYhlSYYyam5C0uqJGjasfI7pyW0HG7lQMMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Structural\\Facade\\Facade_Exemplo1\\Facade_Exemplo1.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Structural\\Facade\\Facade_Exemplo1\\Facade_Exemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

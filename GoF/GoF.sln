@@ -73,9 +73,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{B1C1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter_Exemplo1", "..\Structural\Adapter\Adapter_Exemplo1\Adapter_Exemplo1.csproj", "{CE2392B5-74C8-4970-953F-6C38BA5C961C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator_Exemplo3", "..\Behavioral\Mediator\Mediator_Exemplo3\Mediator_Exemplo3.csproj", "{1AD42EEE-CA4A-4022-B947-5DB67FD2E44D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator_Exemplo3", "..\Behavioral\Mediator\Mediator_Exemplo3\Mediator_Exemplo3.csproj", "{1AD42EEE-CA4A-4022-B947-5DB67FD2E44D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory_Exemplo2", "..\Creational\AbstractFactory\AbstractFactory_Exemplo2\AbstractFactory_Exemplo2.csproj", "{35391C6C-5F95-42A9-BFA4-D61B161C579A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory_Exemplo2", "..\Creational\AbstractFactory\AbstractFactory_Exemplo2\AbstractFactory_Exemplo2.csproj", "{35391C6C-5F95-42A9-BFA4-D61B161C579A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{E2E20A26-EA7C-4C06-8837-86BFD7FCB4C1}"
+	ProjectSection(SolutionItems) = preProject
+		..\Structural\Bridge\README.md = ..\Structural\Bridge\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge_Exemplo1", "..\Structural\Bridge\Bridge_Exemplo1\Bridge_Exemplo1.csproj", "{D18B27A5-A764-491F-AA32-7804A1880F1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +146,10 @@ Global
 		{35391C6C-5F95-42A9-BFA4-D61B161C579A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35391C6C-5F95-42A9-BFA4-D61B161C579A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35391C6C-5F95-42A9-BFA4-D61B161C579A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18B27A5-A764-491F-AA32-7804A1880F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18B27A5-A764-491F-AA32-7804A1880F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18B27A5-A764-491F-AA32-7804A1880F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18B27A5-A764-491F-AA32-7804A1880F1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +176,8 @@ Global
 		{CE2392B5-74C8-4970-953F-6C38BA5C961C} = {B1C18389-C261-408D-85F4-0D01AFC09186}
 		{1AD42EEE-CA4A-4022-B947-5DB67FD2E44D} = {70A485A1-FDE8-493C-9455-6AA18B8FCB36}
 		{35391C6C-5F95-42A9-BFA4-D61B161C579A} = {994BB42F-481C-4CEA-96BD-B91DE9C6CB82}
+		{E2E20A26-EA7C-4C06-8837-86BFD7FCB4C1} = {E8022DEE-210C-418E-9217-E462F447326E}
+		{D18B27A5-A764-491F-AA32-7804A1880F1B} = {E2E20A26-EA7C-4C06-8837-86BFD7FCB4C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00B2D8FC-6A90-46CE-AE1F-0695301ECE67}

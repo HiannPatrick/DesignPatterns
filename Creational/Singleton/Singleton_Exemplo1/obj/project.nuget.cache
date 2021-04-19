@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V5pIOSoRVBQhAfgLaN8nf1Vq46qcXVClL785bsptrvOfmxoyINx30KR3WFHOfzzvXXr1yBuJ7V/R0smJ8bkeyQ==",
+  "dgSpecHash": "84mZU1yhJt31a6b7r8d2bzlnwKcgTa/+KKAVXXsw0mjcsS3ZPDS+Se+nJ5YDPJRIVGNjxoyGgYxN3Td8QagY2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\Singleton\\Singleton_Exemplo1\\Singleton_Exemplo1.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\Singleton\\Singleton_Exemplo1\\Singleton_Exemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

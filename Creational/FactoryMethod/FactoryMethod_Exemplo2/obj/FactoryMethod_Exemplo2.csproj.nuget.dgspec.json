@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj": {}
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj": {
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj",
+        "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj",
         "projectName": "FactoryMethod_Exemplo2",
-        "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj",
+        "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\FactoryMethod_Exemplo2.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\obj\\",
+        "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

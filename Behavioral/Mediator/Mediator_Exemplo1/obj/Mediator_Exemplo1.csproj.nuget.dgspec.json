@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj": {}
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj": {
+    "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj",
+        "projectUniqueName": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj",
         "projectName": "Mediator_Exemplo1",
-        "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj",
+        "projectPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\Mediator_Exemplo1.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\obj\\",
+        "outputPath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

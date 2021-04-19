@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5AnTg5T1sL5i7E7eCUeLzNvxDgOqiPD2nxeS6KYxbY6W1/XrrGx9Zdy++llWGrPJoFDTDKJjaLXU7iLHHc+POw==",
+  "dgSpecHash": "FLRqz2uHgsv5oPoFaYHFgRPn49Ik275vlXC6R+f66KrejOHjjCc3E8dTftf8+WwNZqu5nJTkWx8iswrzxGic9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Behavioral\\Mediator\\Mediator_Exemplo3\\Mediator_Exemplo3.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

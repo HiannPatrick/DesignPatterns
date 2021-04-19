@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D3kn71y+e+0mfjHAeRU0LJDRCPLG7X/nS0lSITUW0y+dSiwqp50YQi+FLTkENVB/wC/OzFxXOQb2Azp4X0zafA==",
+  "dgSpecHash": "KI0DeBfHGgOtRYUEo+yzC379sbfJxFMErPPjnk76HK2tozF6IfJ4IiwUFSl6f3V5OUZtpx0mKo9io/KnMMK99A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory_Exemplo1\\AbstractFactory_Exemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

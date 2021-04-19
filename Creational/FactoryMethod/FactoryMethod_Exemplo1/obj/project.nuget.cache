@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4OPAdxjrnPHslUtKm8dfi3WI4IJ1K5EEBlLNlmfNeAwwcZPBJlWpmH6I39PgzYsLOfe7sW4xcSkxTJhIrhUp9w==",
+  "dgSpecHash": "ehxlL8+lu8GbMPz0IJqa88PXHwr5mYb/UOg/FJA4zP+b6dx1Z+grZXybwkYdawiF1585kNL6HBF77VZqOZdWoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo1\\FactoryMethod_Exemplo1.csproj",
+  "projectFilePath": "C:\\Users\\patri\\Source\\GitHub\\repos\\HiannPatrick\\Public\\DesignPatterns\\Creational\\FactoryMethod\\FactoryMethod_Exemplo1\\FactoryMethod_Exemplo1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
